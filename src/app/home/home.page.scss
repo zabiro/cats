@@ -1,0 +1,9 @@
+.imagesCats{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    @media (max-width: 575px) {
+        width: 100%;
+        height: auto;
+    }
+}
